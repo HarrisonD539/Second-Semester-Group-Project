@@ -274,11 +274,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xMargin: 1.5
-  yMargin: 5
+  yMargin: 1.5
   xSmooth: 1.5
   ySmooth: 1.5
-  maxXandY: {x: 1000, y: 10000}
-  minXandY: {x: -100000, y: -10000}
+  maxXandY: {x: 10000000, y: 10000000}
+  minXandY: {x: -1e+9, y: -1e+9}
   player: {fileID: 1128564758}
 --- !u!1 &970895591
 GameObject:
@@ -340,7 +340,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4c1ce9a32d708a4c8d8bbde162285c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e35758aa106ac794ea12d7d9a3b30287, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -709,7 +709,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2959228409216872590, guid: e95e03468f0277b4ba88c252c76cf058,
+  m_Sprite: {fileID: 2959228409216872590, guid: e764ed17108d5554fbcb6a9290c9227e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -839,7 +839,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 28a02001292d9644aa30aac4d2b19ca7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 449d38aebd1e3944da4f8f19c90bf517, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1190,7 +1190,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 25116c3b58c138b4e8b30ed60bc3313b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47ca4237598c8844cb91ae4ede19b418, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1209,8 +1209,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299798357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.83, y: 1.23, z: 0}
-  m_LocalScale: {x: 3.51, y: 3.07, z: 1}
+  m_LocalPosition: {x: 55.64, y: 0.97, z: 0}
+  m_LocalScale: {x: 3.5451, y: 3.0086, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -6016,6 +6016,6 @@ SpriteRenderer:
   m_Size: {x: 2.34, y: 7.33}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
